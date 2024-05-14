@@ -1,5 +1,3 @@
-![image](https://github.com/mvclab-ntust-course/course3-benson5104/assets/113347980/8a50c373-109a-4da3-a05e-8a0011fb7ffe)![image](https://github.com/mvclab-ntust-course/course3-benson5104/assets/113347980/f9906187-1856-4bf8-b932-f0769ae36559)[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/X3WkcXtG)
-
 # diffusion model with lora
 
   照著https://huggingface.co/docs/diffusers/en/training/lora的教學
@@ -27,3 +25,5 @@ accelerate launch train_text_to_image_lora.py --pretrained_model_name_or_path="r
 不知道是他本來就有皮卡丘還是怎樣，我訓練60 step看起來就挺合理的
 
 ![image](https://github.com/mvclab-ntust-course/course3-benson5104/assets/113347980/3d414f1b-d85e-4172-bfc1-2cec407545f4)
+
+然後最後再用outputimage.py改裡面的prompt來產出圖片
