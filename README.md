@@ -4,6 +4,9 @@
 
   照著https://huggingface.co/docs/diffusers/en/training/lora的教學
 
+  ```bash
+  
+
   git clone https://github.com/huggingface/diffusers
 
   cd diffusers
@@ -14,4 +17,4 @@
 
   pip install -r requirements.txt
 
-  然後
+  ```
